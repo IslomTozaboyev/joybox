@@ -2,7 +2,66 @@ import styled from "styled-components";
 
 const ProductWrapper = styled.div`
   width: 100%;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
+  .modal_product {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0 0 0 / 0.1);
+    backdrop-filter: blur(5px);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    z-index: 10000;
+    &.active {
+      opacity: 1;
+      visibility: visible;
+      backdrop-filter: blur(10px);
+    }
+    .input_group {
+      border-radius: 30px;
+      border: 3px dashed #2525eb;
+      position: relative;
+      .button {
+        position: absolute;
+        bottom: -15px;
+        left: 25%;
+        background-color: #ff5314;
+        color: white;
+        border-radius: 10px;
+      }
+      .times {
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        background-color: #91d9f8;
+        border: 2px solid black;
+        .icon {
+          font-weight: bold;
+          font-size: 25px;
+        }
+      }
+    }
+    input {
+      border-radius: 20px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .button {
+      font-size: 10px;
+    }
+    .modal_product {
+      h3 {
+        font-size: 18px;
+      }
+      .input::placeholder {
+        font-size: 10px !important;
+      }
+    }
+  }
   .MuiTabs-flexContainer {
     display: flex;
     justify-content: space-around !important;
@@ -58,6 +117,18 @@ const ProductWrapper = styled.div`
   .LeftSide {
     width: 340px;
     margin-top: 70px;
+    .input {
+      width: 68%;
+      border: none;
+      outline: none;
+      background-color: rgba(234, 231, 231, 1);
+      padding: 8px 4px;
+      font-weight: bold;
+      &::placeholder {
+        font-weight: bold;
+        color: black;
+      }
+    }
     .btn_secondary {
       background-color: rgba(234, 231, 231, 1);
     }
@@ -101,13 +172,10 @@ const ProductWrapper = styled.div`
       }
     }
   }
+
   .Sidebar {
     flex: 3 !important;
-    .text {
-      font-weight: bold;
-      font-size: 32.0473px;
-      line-height: 100%;
-    }
+
     .border_ {
       border-bottom: 3px solid #969696;
       width: 402px;
@@ -218,7 +286,7 @@ const ProductWrapper = styled.div`
       height: 116px;
     }
     .desc {
-      font-size: 15px;
+      font-size: 12px;
     }
     .bg_success {
       color: rgba(168, 160, 160, 1);
@@ -228,9 +296,11 @@ const ProductWrapper = styled.div`
     }
     .aksiya {
       background-color: #e2e38c;
+      font-size: 12px;
+      margin-top: 4px;
     }
     .price {
-      font-size: 18px;
+      font-size: 17px;
     }
     .big_text {
       font-size: 25px;
@@ -287,13 +357,23 @@ const ProductWrapper = styled.div`
     height: 16px;
   }
 
+  .text {
+    font-weight: bold;
+    font-size: 32.0473px;
+    line-height: 100%;
+  }
+  .li {
+    font-weight: bold;
+    font-size: 24.0473px;
+    line-height: 100%;
+  }
+
   @media screen and (max-width: 1200px) {
     .D_flex {
       display: flex;
       flex-wrap: wrap;
     }
     .LeftSide {
-      display: flex;
       flex: 1;
     }
     .Sidebar {
@@ -304,35 +384,79 @@ const ProductWrapper = styled.div`
     }
   }
 
-  @media screen and (max-width: 1000px) {
-    .D_flex {
-      display: grid;
-      flex-wrap: wrap;
-    }
-    .LeftSide {
-      width: 400px;
-    }
-    .Sidebar {
-      flex: 1;
-    }
-    .rightSide {
-      flex: 1;
-    }
-  }
-
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1025px) {
     .D_flex {
       display: grid !important;
       flex-wrap: wrap;
     }
     .LeftSide {
+      width: 100%;
+    }
+    .Sidebar {
       flex: 1;
+    }
+    .rightSide {
+      flex: 1;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .bottom_text {
+      display: none;
+    }
+    .bottom_block_text {
+      display: block !important;
+    }
+    .text {
+      font-size: 25px;
+    }
+    .li {
+      font-size: 18px;
+    }
+    .right_flex {
+      border: 3px solid #2525eb;
+      padding: 20px;
+    }
+    .rightSide {
+      margin-top: 0;
+    }
+  }
+
+  @media screen and (max-width: 760px) {
+    .D_flex {
+      flex-wrap: wrap;
+    }
+    .MuiTabs-flexContainer {
+      display: grid;
+    }
+    .LeftSide {
+      flex: 1;
+      .container {
+      }
     }
     .Sidebar {
       width: 100%;
     }
     .rightSide {
       flex: 1;
+    }
+    .MuiTab-root {
+      min-height: 25px;
+      min-width: 200px;
+    }
+    .text {
+      font-size: 20px;
+    }
+    .li {
+      font-size: 13px;
+    }
+  }
+  @media screen and (max-width: 510px) {
+    .text {
+      font-size: 16px;
+    }
+    .li {
+      font-size: 10px;
     }
   }
 `;

@@ -6,7 +6,6 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { phones } from "../Data/data";
-import ProductWrapper from "../Wrappers/productWrapper";
 import Container from "./../Containers/Container";
 import Header from "./../Containers/Header/Header";
 import { makeStyles } from "@material-ui/core/styles";
@@ -59,6 +58,13 @@ const Product = () => {
     setValue(newValue);
   };
 
+  // const data = useSelector((state) => state.BooksReducer.filterdata);
+
+  // const saveProduct = (index) => {
+  //   const saveProd = (data[index].save = !data[index].save);
+  //   console.log(saveProd, index);
+  // };
+
   return (
     <Container>
       <Header />
@@ -85,7 +91,7 @@ const Product = () => {
                 </ul>
               </div>
               <div className={classes.root}>
-                <AppBar className="shadow-none" position="static">
+                <AppBar className="shadow-none mb-5 appbar" position="static">
                   <Tabs
                     value={value}
                     onChange={handleChange}
@@ -113,41 +119,46 @@ const Product = () => {
                     {phones.map((value, index) => {
                       return (
                         <div
-                          className="col-12 col-lg-6 col-xl-4 col-xxl-3 cards_border  mb-3 pt-0 p-0"
+                          className="col-12 col-lg-6 col-xl-4 col-xxl-3 mb-3 pt-0 p-0 px-3"
                           key={index}
                         >
-                          <img className="" src="skidka.png" alt="photo" />
-                          <div className="px-3">
-                            <div className="d-flex justify-content-center align-items-center ps-4 my-3">
-                              <img
-                                className="me-3 "
-                                src="phone1.png"
-                                alt="photo"
-                              />
-                              <img className="" src="box.png" alt="photo" />
-                            </div>
-                            <h5 className="fw-bold my-2 text model fw-bold">
-                              {value.title}
-                            </h5>
-                            <div className="d-flex align-items-center">
-                              <p className="mb-0 bg_success aksiya__">
-                                {value.aksiya_}
-                              </p>
-                              <p className="mb-0 text_secondary aksiya ms-4">
-                                {value.aksiya}
-                              </p>
-                            </div>
-                            <h4 className="fw-bold price mb-0 mt-2">
-                              <span className="big_text mb-0">
-                                {value.big_price}
-                              </span>
-                              {value.price}
-                            </h4>
-                            <div className="d-flex justify-content-between align-items-center">
-                              <p className="mb-0 desc">{value.desc}</p>
-                              <button className="border-0 save_btn mb-3">
-                                <img src="orange.png" alt="photo" />
-                              </button>
+                          <div className="cards_border">
+                            <img className="" src="skidka.png" alt="photo" />
+                            <div className="px-3">
+                              <div className="d-flex justify-content-center align-items-center ps-4 my-3">
+                                <img
+                                  className="me-3 "
+                                  src="phone1.png"
+                                  alt="photo"
+                                />
+                                <img className="" src="box.png" alt="photo" />
+                              </div>
+                              <h5 className="fw-bold my-2 text model fw-bold">
+                                {value.title}
+                              </h5>
+                              <div className="d-flex align-items-center">
+                                <p className="mb-0 bg_success aksiya__">
+                                  {value.aksiya_}
+                                </p>
+                                <p className="mb-0 text_secondary aksiya ms-4">
+                                  {value.aksiya}
+                                </p>
+                              </div>
+                              <h4 className="fw-bold price mb-0 mt-2">
+                                <span className="big_text mb-0">
+                                  {value.big_price}
+                                </span>
+                                {value.price}
+                              </h4>
+                              <div className="d-flex justify-content-between align-items-center">
+                                <p className="mb-0 desc">{value.desc}</p>
+                                <button
+                                  // onClick={() => saveProduct(index)}
+                                  className="border-0 save_btn mb-3"
+                                >
+                                  <img src="orange.png" alt="photo" />
+                                </button>
+                              </div>
                             </div>
                           </div>
                         </div>

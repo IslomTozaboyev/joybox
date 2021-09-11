@@ -71,6 +71,75 @@ const phones = [
     big_price: "15,",
     price: `470,999`,
     desc: `от 1 362 000 сум/мес`,
+    img: "phone1.png",
+    save: false,
+    href: "/",
+  },
+  {
+    title: `iphone a52 4/256 dual sim onyx black`,
+    aksiya_: `16 800 000`,
+    aksiya: `1 330 000 СУМ`,
+    big_price: "15,",
+    price: `470,999`,
+    desc: `от 1 362 000 сум/мес`,
+    img: "phone1.png",
+    save: false,
+    href: "/productCard",
+  },
+  {
+    title: `me a52 4/256 dual sim onyx black`,
+    aksiya_: `16 800 000`,
+    aksiya: `1 330 000 СУМ`,
+    big_price: "15,",
+    price: `470,999`,
+    desc: `от 1 362 000 сум/мес`,
+    img: "phone1.png",
+    save: false,
+    href: "/productCard",
+  },
+  {
+    title: `artel a52 4/256 dual sim onyx black`,
+    aksiya_: `16 800 000`,
+    aksiya: `1 330 000 СУМ`,
+    big_price: "15,",
+    price: `470,999`,
+    desc: `от 1 362 000 сум/мес`,
+    img: "phone1.png",
+    save: false,
+    href: "/productCard",
+  },
+  {
+    title: `me a52 4/256 dual sim onyx black`,
+    aksiya_: `16 800 000`,
+    aksiya: `1 330 000 СУМ`,
+    big_price: "15,",
+    price: `470,999`,
+    desc: `от 1 362 000 сум/мес`,
+    img: "phone1.png",
+    save: false,
+    href: "/productCard",
+  },
+  {
+    title: `me a52 4/256 dual sim onyx black`,
+    aksiya_: `16 800 000`,
+    aksiya: `1 330 000 СУМ`,
+    big_price: "15,",
+    price: `470,999`,
+    desc: `от 1 362 000 сум/мес`,
+    img: "phone1.png",
+    save: false,
+    href: "/productCard",
+  },
+  {
+    title: `iphone a52 4/256 dual sim onyx black`,
+    aksiya_: `16 800 000`,
+    aksiya: `1 330 000 СУМ`,
+    big_price: "15,",
+    price: `470,999`,
+    desc: `от 1 362 000 сум/мес`,
+    img: "phone1.png",
+    save: false,
+    href: "/productCard",
   },
   {
     title: `Samsung a52 4/256 dual sim onyx black`,
@@ -79,6 +148,9 @@ const phones = [
     big_price: "15,",
     price: `470,999`,
     desc: `от 1 362 000 сум/мес`,
+    img: "phone1.png",
+    save: false,
+    href: "/productCard",
   },
   {
     title: `Samsung a52 4/256 dual sim onyx black`,
@@ -87,6 +159,9 @@ const phones = [
     big_price: "15,",
     price: `470,999`,
     desc: `от 1 362 000 сум/мес`,
+    img: "phone1.png",
+    save: false,
+    href: "/productCard",
   },
   {
     title: `Samsung a52 4/256 dual sim onyx black`,
@@ -95,6 +170,9 @@ const phones = [
     big_price: "15,",
     price: `470,999`,
     desc: `от 1 362 000 сум/мес`,
+    img: "phone1.png",
+    save: false,
+    href: "/productCard",
   },
   {
     title: `Samsung a52 4/256 dual sim onyx black`,
@@ -103,6 +181,9 @@ const phones = [
     big_price: "15,",
     price: `470,999`,
     desc: `от 1 362 000 сум/мес`,
+    img: "phone1.png",
+    save: false,
+    href: "/productCard",
   },
   {
     title: `Samsung a52 4/256 dual sim onyx black`,
@@ -111,6 +192,9 @@ const phones = [
     big_price: "15,",
     price: `470,999`,
     desc: `от 1 362 000 сум/мес`,
+    img: "phone1.png",
+    save: false,
+    href: "/productCard",
   },
   {
     title: `Samsung a52 4/256 dual sim onyx black`,
@@ -119,6 +203,9 @@ const phones = [
     big_price: "15,",
     price: `470,999`,
     desc: `от 1 362 000 сум/мес`,
+    img: "phone1.png",
+    save: false,
+    href: "/productCard",
   },
   {
     title: `Samsung a52 4/256 dual sim onyx black`,
@@ -127,6 +214,9 @@ const phones = [
     big_price: "15,",
     price: `470,999`,
     desc: `от 1 362 000 сум/мес`,
+    img: "phone1.png",
+    save: false,
+    href: "/productCard",
   },
   {
     title: `Samsung a52 4/256 dual sim onyx black`,
@@ -135,6 +225,9 @@ const phones = [
     big_price: "15,",
     price: `470,999`,
     desc: `от 1 362 000 сум/мес`,
+    img: "phone1.png",
+    save: false,
+    href: "/productCard",
   },
   {
     title: `Samsung a52 4/256 dual sim onyx black`,
@@ -143,54 +236,9 @@ const phones = [
     big_price: "15,",
     price: `470,999`,
     desc: `от 1 362 000 сум/мес`,
-  },
-  {
-    title: `Samsung a52 4/256 dual sim onyx black`,
-    aksiya_: `16 800 000`,
-    aksiya: `1 330 000 СУМ`,
-    big_price: "15,",
-    price: `470,999`,
-    desc: `от 1 362 000 сум/мес`,
-  },
-  {
-    title: `Samsung a52 4/256 dual sim onyx black`,
-    aksiya_: `16 800 000`,
-    aksiya: `1 330 000 СУМ`,
-    big_price: "15,",
-    price: `470,999`,
-    desc: `от 1 362 000 сум/мес`,
-  },
-  {
-    title: `Samsung a52 4/256 dual sim onyx black`,
-    aksiya_: `16 800 000`,
-    aksiya: `1 330 000 СУМ`,
-    big_price: "15,",
-    price: `470,999`,
-    desc: `от 1 362 000 сум/мес`,
-  },
-  {
-    title: `Samsung a52 4/256 dual sim onyx black`,
-    aksiya_: `16 800 000`,
-    aksiya: `1 330 000 СУМ`,
-    big_price: "15,",
-    price: `470,999`,
-    desc: `от 1 362 000 сум/мес`,
-  },
-  {
-    title: `Samsung a52 4/256 dual sim onyx black`,
-    aksiya_: `16 800 000`,
-    aksiya: `1 330 000 СУМ`,
-    big_price: "15,",
-    price: `470,999`,
-    desc: `от 1 362 000 сум/мес`,
-  },
-  {
-    title: `Samsung a52 4/256 dual sim onyx black`,
-    aksiya_: `16 800 000`,
-    aksiya: `1 330 000 СУМ`,
-    big_price: "15,",
-    price: `470,999`,
-    desc: `от 1 362 000 сум/мес`,
+    img: "phone1.png",
+    save: false,
+    href: "/productCard",
   },
 ];
 
@@ -203,6 +251,7 @@ const rightSide = [
     big_price: "15,",
     price: `470,999`,
     desc: `от 1 362 000 сум/мес`,
+    save: false,
   },
   {
     img: "phone2.png",
@@ -212,6 +261,7 @@ const rightSide = [
     big_price: "15,",
     price: `470,999`,
     desc: `от 1 362 000 сум/мес`,
+    save: false,
   },
   {
     img: "phone3.png",
@@ -221,6 +271,7 @@ const rightSide = [
     big_price: "15,",
     price: `470,999`,
     desc: `от 1 362 000 сум/мес`,
+    save: false,
   },
   {
     img: "phone4.png",
@@ -230,6 +281,7 @@ const rightSide = [
     big_price: "15,",
     price: `470,999`,
     desc: `от 1 362 000 сум/мес`,
+    save: false,
   },
   {
     img: "phone5.png",
@@ -239,7 +291,70 @@ const rightSide = [
     big_price: "15,",
     price: `470,999`,
     desc: `от 1 362 000 сум/мес`,
+    save: false,
   },
 ];
 
-export { bigCategores, categores, phones, rightSide };
+const pages = [
+  { page: "Акции" },
+  { page: "Смартфоны" },
+  { page: "Техника для кухни" },
+  { page: "Техника для дома" },
+  { page: "Телевизоры, аудиотехника" },
+  { page: "Смарт-гаджеты" },
+  { page: "Фото, Видео, авто" },
+  { page: "Дом, Сад" },
+];
+
+const links = [
+  { link: "Скидки", href: "/product" },
+  { link: "Смартфоны", href: "/productCard" },
+  { link: "ТВ", href: "/baraxolka" },
+  {
+    link: "Техника для кухни",
+    href: "/test",
+    className: "link1 col-12",
+  },
+  {
+    link: "Аксессуары",
+    href: "/main",
+    className: "link2 mx-4 d-block d-md-none",
+  },
+  {
+    link: "Техника для дома",
+    href: "/",
+    className: "link3 d-none d-lg-block",
+  },
+  {
+    link: " Ноутбук, ПК, планшет",
+    href: "/",
+    className: "link4 d-none d-xl-block",
+  },
+  { link: "Для геймеров", href: "/", className: "link5 d-none d-xxl-block" },
+];
+
+const home_images = [
+  { img: "home_me.png" },
+  { img: "home_samsung.png" },
+  { img: "home_vivo.png" },
+  { img: "home_apple.png", className: "apple" },
+  { img: "home_lg.png" },
+];
+
+const bottomText = [
+  { title: "Какие Какие Смартфоны самые дешевые?" },
+  { title: "Какие Какие Смартфоны самые популярные в 2021 году?" },
+  { title: "Какие Какие Смартфоны актуальны в 2021 году?" },
+  { title: "Какие Какие Смартфоны относятся к преимум сегменту?" },
+];
+
+export {
+  bigCategores,
+  categores,
+  phones,
+  rightSide,
+  pages,
+  links,
+  home_images,
+  bottomText,
+};

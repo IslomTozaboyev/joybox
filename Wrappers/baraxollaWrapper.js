@@ -21,6 +21,7 @@ const BaraxollaWrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100% !important;
   }
 
   .Sidebar {
@@ -33,10 +34,12 @@ const BaraxollaWrapper = styled.div`
     .item_two {
       color: #ff5314;
       border: 1px solid #ff5314;
+      margin: 10px 0;
     }
     .item_three {
       border: 1px solid #a6a6a6;
       color: #000;
+      margin-top: 5px;
     }
     .title {
       font-weight: bold;
@@ -121,6 +124,21 @@ const BaraxollaWrapper = styled.div`
 
       letter-spacing: 0.025em;
       text-decoration-line: underline;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .MuiTabs-flexContainer {
+      display: grid !important;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .MuiTabs-flexContainer {
+      display: grid !important;
+    }
+    .MuiAppBar-colorPrimary {
+      width: 345px !important;
     }
   }
 `;
